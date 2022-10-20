@@ -15,11 +15,6 @@ registerApplication({
   activeWhen: ["/todo"]
 });
 
-registerApplication({
-  name: "@trgsn/navbar",
-  app: () => System.import("@trgsn/navbar") as any,
-  activeWhen: ["/navbar"]
-});
 
 
 start({
